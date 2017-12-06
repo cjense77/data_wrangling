@@ -1,0 +1,12 @@
+name: cs06
+title: cs06
+username: cjense77
+account: cjense77
+server: shiny.byui.edu
+hostUrl: http://shiny.byui.edu:3939/__api__
+appId: 12
+bundleId: 11
+url: http://shiny.byui.edu:3939/content/12/
+when: 1509486735.96788
+asMultiple: FALSE
+asStatic: TRUE

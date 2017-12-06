@@ -1,0 +1,86 @@
+---
+title: "Case Study 06"
+author: "Colin Jensen"
+date: "10/20/2017"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The following analysis aims to give the reader insight into how often the Saviour is mentioned in the Book of Mormon. To accomplish this, we calculated the average distance between references to one of the Saviour's names for each book in the Book of Mormon. The following is the code used to accomplish this:
+
+```{python}
+import pandas as pd
+
+# Load initial data
+scriptures = pd.read_csv("scriptures.csv")
+names = pd.read_csv("savior_names.csv")
+
+# Isolate BOM data
+bom = scriptures.loc[scriptures.volume_title == "Book of Mormon", ['book_title', 'scripture_text']]
+
+# Group the 14 books together with all verses together
+bom_books = bom.groupby('book_title')['scripture_text'].apply(lambda x: " ".join(x))
+bom = pd.DataFrame(bom_books)
+bom.reset_index(level=0, inplace=True)
+
+# Replace the names of the Saviour with an ID
+for name in names['name']:
+    bom['scripture_text'] = bom['scripture_text'].str.replace(name, "<<name>>")
+
+# Split on each name location
+bom['scripture_text'] = bom['scripture_text'].str.split("<<name>>")
+
+# Put each gap between references to the Saviour
+# on its own row
+gaps = bom.apply(lambda x: pd.Series(x['scripture_text']),axis=1).stack().reset_index(level=0, drop=True)
+gaps.name = 'gaps'
+bom = bom.drop('scripture_text', axis=1).join(gaps).reset_index(level=0)
+
+# Calculte the average length
+bom['length'] = bom['gaps'].str.split(" ").str.len()
+average_lengths = bom.groupby('book_title').mean().sort_values('length').drop('index', axis=1)
+
+average_lengths.to_csv('average_gaps.csv')
+```
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(forcats)
+
+data <- read_csv("average_gaps.csv")
+
+book_order = c("1 Nephi",
+               "2 Nephi",
+               "Jacob",
+               "Enos",
+               "Jarom",
+               "Omni",
+               "Words of Mormon",
+               "Mosiah",
+               "Alma",
+               "Helaman",
+               "3 Nephi",
+               "4 Nephi",
+               "Ether",
+               "Mormon",
+               "Moroni")
+data %>%
+  ggplot(aes(x = book_title, y = length)) +
+  geom_point() +
+  geom_hline(yintercept = mean(data$length),
+             color = "blue") +
+  scale_x_discrete(limits = book_order) +
+  annotate("text",0.75,65,label = "76", color = "blue") +
+  labs(title = "Distance Between References to the Saviour",
+       y = "Distance (# of words)",
+       x = "Book in Book of Mormon") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 55, vjust = 1, hjust = 1))
+```
+
+This plot displays the results of our analysis. For most of the books in the Book of Mormon, every 76th word is a direct reference to Jesus Christ. The most noteable anomaly is 2 Nephi, which on average appears to mention the Saviour only every 225 words, or so. Our best explanation of this phenomenon is that 2 Nephi is dominanted with quotes from Isaiah, who typically refers to Jesus Christ in subtle, prophetic ways (and almost never by name). 
