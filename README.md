@@ -9,24 +9,24 @@ In terms of performing data analysis, R is like a fancy restaurant. At a restaur
 Python, on the other hand, is like your own kitchen at home. The quality of the food depends primarily on the skill of the chef. A professional can produce something delicious completely customized. A novice, however, is likely to produce a disaster on his first few attempts. Python wasn't built for doing data analysis. That fact is evidenced by the relative immaturity of data science and visualization packages such as Pandas, Agate, Bokeh, and PyGal. While they are certainly powerful and quickly improving, they lack the simplicity and user-friendliness of their R equivalents. In the hands of a professional, wonderful and delicious things can be accomplished, but tyros to the field need to be prepared for a steep learning curve. 
 
 That said, on to the projects. 
-
-## [Wealth and Life Expectancy](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb)
-
-## [Reducing Gun Deaths](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb)
-
-## [Average Human Height](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb)
-
-## [Construction in Idaho](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb)
-
-## [Counting Names in Scripture](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Counting%20Names%20in%20Scripture/cs06.ipynb)
-
-## [Business Transactions](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb)
-
-## [Stock Performance Timeseries](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Stock%20Performance%20Timeseries/cs08.ipynb)
-
-## [Mortgage Crisis 1](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%201/cs10%20v2.ipynb)
-
-## [Mortgage Crisis 2](https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%202/cs11.ipynb)
+<table style="width:100%">
+  <tr style="width:100%">
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a>
+</td>
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb">Reducing Gun Deaths</a></td> 
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></td>
+  </tr>
+  <tr>
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb"></a>Construction in Idaho</td>
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Counting%20Names%20in%20Scripture/cs06.ipynb">Counting Names in Scripture</a></td> 
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb"></a>Business Transaction</td>
+  </tr>
+    <tr>
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Stock%20Performance%20Timeseries/cs08.ipynb">Stock Performance Timeseries</a></td>
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%201/cs10%20v2.ipynb">Mortgage Crisis 1</a></td> 
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%202/cs11.ipynb">Mortgage Crisis 2</a></td>
+    </tr>
+</table>
 
 ## Tasks
 
