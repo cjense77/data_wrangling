@@ -10,16 +10,16 @@ Python, on the other hand, is like your own kitchen at home. The quality of the 
 
 That said, on to the projects. 
 <table style="width:100%">
-  <tr style="width:100%">
+  <tr>
     <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a>
 </td>
-      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb">Reducing Gun Deaths</a></td> 
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb"><img src="https://cdn.modernfarmer.com/wp-content/uploads/2014/09/cowhero2.jpg" width="200px"><br>Reducing Gun Deaths</a></td> 
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></td>
   </tr>
   <tr>
-      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb"></a>Construction in Idaho</td>
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb">Construction in Idaho</a></td>
     <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Counting%20Names%20in%20Scripture/cs06.ipynb">Counting Names in Scripture</a></td> 
-    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb"></a>Business Transaction</td>
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb">Business Transaction</a></td>
   </tr>
     <tr>
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Stock%20Performance%20Timeseries/cs08.ipynb">Stock Performance Timeseries</a></td>
