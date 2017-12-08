@@ -1,4 +1,9 @@
-Welcome to my data wrangling repository. Currently, this reposity contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Hence, you will notice the later projects are more polished than the earlier ones. 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/2000px-R_logo.svg.png" width="100px" align="right">
+<img src="http://www.unixstickers.com/image/cache/data/stickers/python/python.sh-180x180.png" width="100px" align="right">
+
+Data Wrangling for Beginners
+============================
+Welcome to my data wrangling repository. Currently, this reposity contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Therefore, you will notice that some projects are more polished than others. Here you will find links to the project themselves, as well as some thoughts on my experience creating them. 
 
 Here are the projects:
 
@@ -6,7 +11,7 @@ Here are the projects:
   <tr>
     <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a>
 </td>
-      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb"><br>Reducing Gun Deaths</a></td> 
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb">Reducing Gun Deaths</a></td> 
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></td>
   </tr>
   <tr>
@@ -54,15 +59,6 @@ mutate(build_type = case_when(
     ))
 ```
 
-At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. However, the real difference appears in the level of exertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
+At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. They both have quirky bits of complexity. However, the real difference appears in the level of exertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
 
-On the other hand, the Python code uses lambda functions and list comprehensions, both of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subject questions falling to the opinion of the programmer, but R is the clear winner in terms of ease of learning for new data analysts. 
-## Tasks
-
-* [X] Go back to all case studies that I completed in R and translate them to Python.
-* [ ] Document the Python code in each case study with robust comments
-* [ ] Construct a document that summarizes key differences between the Python and R code
-     * [ ] List examples of key differences
-     * [ ] Compare computing speed
-     * [ ] Compare code readability
-* [ ] Publish case studies and summary document in a useful format
+On the other hand, the Python code uses lambda functions and list comprehensions, both of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subject questions falling to the opinion of the programmer, but R is probably better in terms of ease of learning for new data analysts. 
