@@ -2,7 +2,7 @@
 
 Data Wrangling for Beginners
 ============================
-Welcome to my data wrangling repository. Currently, this reposity contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Therefore, you will notice that some projects are more polished than others. Here you will find links to the project themselves, as well as some thoughts on my experience creating them. 
+Welcome to my data wrangling repository. Currently, this repository contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Therefore, you will notice that some projects are more polished than others. Here you will find links to the project themselves, as well as some thoughts on my experience creating them. 
 
 ## The Projects
 
