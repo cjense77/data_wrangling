@@ -11,7 +11,7 @@ Python, on the other hand, is like your own kitchen at home. The quality of the 
 That said, on to the projects. 
 <table style="width:100%">
   <tr>
-    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a>
+    <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb" target="_blank">Wealth and Life Expectancy</a>
 </td>
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb"><img src="https://cdn.modernfarmer.com/wp-content/uploads/2014/09/cowhero2.jpg" width="200px"><br>Reducing Gun Deaths</a></td> 
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></td>
