@@ -6,7 +6,7 @@ Here are the projects:
   <tr>
     <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a>
 </td>
-      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb"><br>Reducing Gun Deaths</a></td> 
+      <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb">Reducing Gun Deaths</a></td> 
       <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></td>
   </tr>
   <tr>
@@ -20,6 +20,10 @@ Here are the projects:
     <td><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%202/cs11.ipynb">Mortgage Crisis 2</a></td>
     </tr>
 </table>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/2000px-R_logo.svg.png" width="100px">
+
+<img scr="http://www.unixstickers.com/image/cache/data/stickers/python/python.sh-180x180.png">
 
 # Some Thoughts On R and Python
 
@@ -54,9 +58,9 @@ mutate(build_type = case_when(
     ))
 ```
 
-At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. However, the real difference appears in the level of exertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
+At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. They both have quirky bits of complexity. However, the real difference appears in the level of exertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
 
-On the other hand, the Python code uses lambda functions and list comprehensions, both of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subject questions falling to the opinion of the programmer, but R is the clear winner in terms of ease of learning for new data analysts. 
+On the other hand, the Python code uses lambda functions and list comprehensions, both of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subject questions falling to the opinion of the programmer, but R is probably better in terms of ease of learning for new data analysts. 
 ## Tasks
 
 * [X] Go back to all case studies that I completed in R and translate them to Python.
