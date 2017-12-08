@@ -1,5 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/2000px-R_logo.svg.png" width="100px" align="right">
-<img src="http://www.unixstickers.com/image/cache/data/stickers/python/python.sh-180x180.png" width="100px" align="right">
+<img src="python_logo.png" width="100px" align="right" margin-top="-30px">
 
 Data Wrangling for Beginners
 ============================
