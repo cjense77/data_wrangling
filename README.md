@@ -66,10 +66,9 @@ mutate(build_type = case_when(
       str_detect(ProjectTitle, paste(not_restaurants, collapse = "|")) ~ "Not Restaurant",
       str_detect(ProjectTitle, paste(standalone_retail, collapse = "|")) ~ "Standalone Retail",
       str_detect(ProjectTitle, paste(full_service, collapse = "|")) ~ "Full Service",
-      str_detect(ProjectTitle, paste(quick, collapse = "|"))) ~ "Quick Service"
-    ))
+      str_detect(ProjectTitle, paste(quick, collapse = "|"))) ~ "Quick Service"))
 ```
 
 At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. They both have quirky bits of complexity. However, the real difference appears in the level of expertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
 
-On the other hand, the Python code uses lambda functions, list comprehensions, and the boolean any, all of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subject questions falling to the opinion of the programmer, but R is probably better in terms of ease of learning for new data analysts. 
+On the other hand, the Python code uses lambda functions, list comprehensions, and the boolean any, all of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subjective questions falling to the opinion of the programmer, but R is probably better in terms of ease of learning for new data analysts. 
