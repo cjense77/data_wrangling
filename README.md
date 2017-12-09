@@ -2,15 +2,15 @@
 
 Data Wrangling for Beginners
 ============================
-Welcome to my data wrangling repository. Currently, this repository contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Therefore, you will notice that some projects are more polished than others. Here you will find links to the project themselves, as well as some thoughts on my experience creating them. 
+Welcome to my data wrangling repository. Currently, this repository contains work that I did in the Fall of 2017 for MATH 335: Data Wrangling and Visualization. These are some of my first attempts at data science. Therefore, you will notice that some projects are more polished than others. Here you will find links to the projects themselves, as well as some thoughts on my experience creating them. 
 
 ## The Projects
 
 <table>
   <tr>
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb">Wealth and Life Expectancy</a></h3></td>
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb">Reducing Gun Deaths</a></h3></td>
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb">Average Human Height</a></h3></td>
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Wealth%20and%20Life%20Expectancy/cs02.ipynb?flush_cache=true">Wealth and Life Expectancy</a></h3></td>
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Reducing%20Gun%20Deaths/cs03.ipynb?flush_cache=true">Reducing Gun Deaths</a></h3></td>
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Average%20Human%20Height/cs04.ipynb?flush_cache=true">Average Human Height</a></h3></td>
   </tr>
   <tr>
     <td><img src="images/cs02.png" width="250px"></td>
@@ -18,9 +18,9 @@ Welcome to my data wrangling repository. Currently, this repository contains wor
     <td><img src="images/cs04.png" width="250px"></td>
   </tr>
   <tr>
-      <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb">Construction in Idaho</a></h3></td>
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Counting%20Names%20in%20Scripture/cs06.ipynb">Counting Names in Scripture</a></h3></td> 
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb">Business Transaction</a></h3></td>
+      <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Construction%20in%20Idaho/cs05.ipynb?flush_cache=true">Construction in Idaho</a></h3></td>
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Counting%20Names%20in%20Scripture/cs06.ipynb?flush_cache=true">Counting Names in Scripture</a></h3></td> 
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Business%20Transactions/cs07.ipynb?flush_cache=true">Business Transactions</a></h3></td>
   </tr>
   <tr>
     <td><img src="images/cs05.png" width="250px"></td>
@@ -28,9 +28,9 @@ Welcome to my data wrangling repository. Currently, this repository contains wor
     <td><img src="images/cs07.png" width="250px"></td>
   </tr>
   <tr>
-      <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Stock%20Performance%20Timeseries/cs08.ipynb">Stock Performance Timeseries</a></h3></td>
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%201/cs10%20v2.ipynb">Mortgage Crisis 1</a></h3></td> 
-    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%202/cs11.ipynb">Mortgage Crisis 2</a></h3></td>
+      <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Stock%20Performance%20Timeseries/cs08.ipynb?flush_cache=true">Stock Performance Timeseries</a></h3></td>
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%201/cs10%20v2.ipynb?flush_cache=true">Mortgage Crisis 1</a></h3></td> 
+    <td><h3><a href="https://nbviewer.jupyter.org/github/cjense77/data_wrangling/blob/master/Mortgage%20Crisis%202/cs11.ipynb?flush_cache=true">Mortgage Crisis 2</a></h3></td>
   </tr>
   <tr>
     <td><img src="images/cs08.png" width="250px"></td>
@@ -41,7 +41,7 @@ Welcome to my data wrangling repository. Currently, this repository contains wor
 
 ## Some Thoughts On R and Python
 
-The main platform for the analysis of the class was R, but being fully indoctrinated into Python, I decided that I would march to the beat of my own drum. This gave me a unique opportunity throughout the semester to compare R and Python side-by-side. For context, most the analysis I did in R was using Hadley Wickham's tidyverse, and most of the analyss I did in Python was using Pandas. After using both tools, here's my take on the R vs. Python discussion.
+The main platform for the analysis of the class was R, but being fully indoctrinated into Python, I decided that I would march to the beat of my own drum. This gave me a unique opportunity throughout the semester to compare R and Python side-by-side. For context, most the analysis I did in R was using Hadley Wickham's [tidyverse](https://www.tidyverse.org/), and most of the analyss I did in Python was using [Pandas](https://pandas.pydata.org/), [Agate](https://agate.readthedocs.io/en/1.6.0/), [Bokeh](https://bokeh.pydata.org/en/latest/). After using both tools, here's my take on the R vs. Python discussion.
 
 In terms of performing data analysis, R is like a fancy restaurant. At a restaurant, you tend to end up with something delicious because the chef is likely to only put items on the menu that she cooks well. In this way, R excels. Especially when paired with a powerful IDE like [RStudio](https://www.rstudio.com/) and a few choice packages such as Hadley Wickham's [tidyverse](https://www.tidyverse.org/), R provides a robust and user-friendly platform for data analysis. However, a programmer coming into R from a more comphresensive language will likely find themselves frustrated by the inflexibility of the base R language. Continuing with our restaurant analogy, say you wanted your salmon filet pan-fried instead of steamed. If it's not on the menu, you're probably out of luck. Similarly, becuase R was created with statistics and data science in mind, it is sometimes quite cumbersome to implement a program not related to those fields. 
 
@@ -71,4 +71,4 @@ mutate(build_type = case_when(
 
 At first, these two blocks of code seem very comparable. They are both technically just a single line of code with new lines added for readability. They both have quirky bits of complexity. However, the real difference appears in the level of expertise needed to produce the ideas implemented here. The R code principally uses four functions: mutate, str_detect, case_when, and paste. These functions are all fundamental to data analysis with dplyr and will be used frequently enough by the beginning R programmer that their use is fairly intuitive. 
 
-On the other hand, the Python code uses lambda functions, list comprehensions, and the boolean any, all of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. Which block of code is ultimately better is a subjective questions falling to the opinion of the programmer, but R is probably better in terms of ease of learning for new data analysts. 
+On the other hand, the Python code uses lambda functions, list comprehensions, and the boolean any, all of which are fairly sophisticated methods and wouldn't intuitively pop into the minds of beginning Python users. The answer to which block of code is better is a subjective question falling to the opinion of the programmer; but, R is probably better in terms of ease of learning for new data analysts. 
